@@ -39,11 +39,12 @@ class Student {
     public static void main(String[] args) {
          Logger l=Logger.getLogger("com.api.jar");
         Scanner s = new Scanner(System.in);
-        String grade,name="";
+        String grade;
+        String name="";
         l.info("Enter the student name:");
         try{
             name = s.nextLine(); // null value
-            System.out.println(name.charAt(7));
+            l.info(name.charAt(7));
         }
         catch(IndexOutOfBoundsException e){
             l.log(Level.INFO, () -> "Index is out of bounds." + e);
