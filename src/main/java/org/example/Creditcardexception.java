@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Creditcard implements Cloneable{
+class Creditcard implements cloneable{
     Logger l=Logger.getLogger("com.api.jar");
     String cardnumber1="1202340456067808";
     String cardholdername;
