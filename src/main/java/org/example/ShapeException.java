@@ -49,7 +49,7 @@ class Shape {
     }
 
     public static void main(String[] args) {
-        Logger l=Logger.getLogger("com.api.jar");
+        Logger l=Logger.getLogger("shape.class");
         double length=0;
         double breadth=0;
         double side1=0;
