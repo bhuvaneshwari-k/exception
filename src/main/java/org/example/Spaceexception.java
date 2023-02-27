@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class Space implements cloneable {
-    Logger l = Logger.getLogger("com.api.jar");
+    Logger l = Logger.getLogger("space.class");
     String x1 = "20";
     String y1 = "30";
     String x2;
@@ -34,7 +34,7 @@ class Space implements cloneable {
     }
 
     public static void main(String[] args){
-        Logger l = Logger.getLogger("com.api.jar");
+        Logger l = Logger.getLogger("space.class");
         Scanner s = new Scanner(System.in);
         l.info("Enter x co-ordinate:");
         String x = s.nextLine();
