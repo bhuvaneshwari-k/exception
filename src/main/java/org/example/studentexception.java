@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class Student {
-    static Logger l=Logger.getLogger("com.api.jar");
+    static Logger l=Logger.getLogger("student.class");
     String sname;
     String sgrade;
     double sgpa;
@@ -37,7 +37,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-         Logger l=Logger.getLogger("com.api.jar");
+         Logger l=Logger.getLogger("student.class");
         Scanner s = new Scanner(System.in);
         String grade;
         String name="";
